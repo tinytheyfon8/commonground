@@ -6,6 +6,7 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'cg_db',
+      port: '5433',
       user:     'commonground',
       password: 'commonground123'
     }
